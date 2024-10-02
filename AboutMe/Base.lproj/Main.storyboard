@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kgC-89-nNH">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About me-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="8BW-DO-BcC">
+                                <rect key="frame" x="20" y="79" width="353" height="670"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="ProfilePic" translatesAutoresizingMaskIntoConstraints="NO" id="ZnV-NC-9HY">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="619.66666666666663"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello! My name is Wesley" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7l-yN-Nqw">
+                                        <rect key="frame" x="80.000000000000014" y="649.66666666666663" width="193.33333333333337" height="20.333333333333371"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8BW-DO-BcC" secondAttribute="bottom" constant="20" id="2pg-tZ-p9d"/>
+                            <constraint firstItem="8BW-DO-BcC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="3J0-Jc-f26"/>
+                            <constraint firstItem="8BW-DO-BcC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="f9w-UD-OX5"/>
+                            <constraint firstAttribute="trailing" secondItem="8BW-DO-BcC" secondAttribute="trailing" constant="20" id="no4-aP-RVZ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About me" image="person.crop.circle.fill" catalog="system" id="i6V-g6-ltC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1003.8167938931298" y="812.67605633802816"/>
+        </scene>
+        <!--Hobby-->
+        <scene sceneID="bSw-pJ-cQE">
+            <objects>
+                <viewController id="daG-LA-9Qy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZcV-1p-zsE">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="GU5-Fv-T10">
+                                <rect key="frame" x="20" y="79" width="353" height="670"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="tom-barrett-M0AWNxnLaMw-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="A6n-ey-Zbd">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="468"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="468" id="KoU-cU-FkX"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I like to travel " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1SC-q4-iVo">
+                                        <rect key="frame" x="124.33333333333334" y="469" width="104.33333333333334" height="201"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bsw-hL-Y5d"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="GU5-Fv-T10" secondAttribute="trailing" constant="20" id="Gsh-BQ-pjT"/>
+                            <constraint firstItem="GU5-Fv-T10" firstAttribute="leading" secondItem="ZcV-1p-zsE" secondAttribute="leading" constant="20" id="aqW-GH-U4V"/>
+                            <constraint firstItem="bsw-hL-Y5d" firstAttribute="bottom" secondItem="GU5-Fv-T10" secondAttribute="bottom" constant="20" id="pbX-l1-dYd"/>
+                            <constraint firstItem="GU5-Fv-T10" firstAttribute="top" secondItem="bsw-hL-Y5d" secondAttribute="top" constant="20" id="ykL-7W-S5L"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobby" image="airplane" catalog="system" id="rzz-LR-bxC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sga-Ep-Nyy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2072.5190839694656" y="510.56338028169017"/>
+        </scene>
+        <!--Career-->
+        <scene sceneID="Cgp-bv-rRY">
+            <objects>
+                <viewController id="e4O-QL-usZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o2b-9i-EaU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YvX-qs-4pU">
+                                <rect key="frame" x="20" y="79" width="353" height="670"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="pexels-mateusz-dach-99805-1294886" translatesAutoresizingMaskIntoConstraints="NO" id="qAh-M4-s39">
+                                        <rect key="frame" x="0.0" y="0.0" width="353" height="649.66666666666663"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm learning iOS development " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mqa-GS-gTn">
+                                        <rect key="frame" x="62.666666666666671" y="649.66666666666663" width="227.66666666666663" height="20.333333333333371"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ORo-A1-Zdc"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="ORo-A1-Zdc" firstAttribute="bottom" secondItem="YvX-qs-4pU" secondAttribute="bottom" constant="20" id="Jg1-Iq-Kqo"/>
+                            <constraint firstAttribute="trailing" secondItem="YvX-qs-4pU" secondAttribute="trailing" constant="20" id="W7b-Jg-fE4"/>
+                            <constraint firstItem="YvX-qs-4pU" firstAttribute="leading" secondItem="ORo-A1-Zdc" secondAttribute="leading" constant="20" id="Zc3-aa-0pK"/>
+                            <constraint firstItem="YvX-qs-4pU" firstAttribute="top" secondItem="ORo-A1-Zdc" secondAttribute="top" constant="20" id="wzo-JP-YGl"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Career" image="briefcase.fill" catalog="system" id="arG-oM-skd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SCd-lU-b1Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2072.5190839694656" y="-287.32394366197184"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yu1-2y-FZj">
+            <objects>
+                <tabBarController id="kgC-89-nNH" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ioT-hn-keu">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <color key="selectedImageTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="e4O-QL-usZ" kind="relationship" relationship="viewControllers" id="nUn-a5-Iw3"/>
+                        <segue destination="daG-LA-9Qy" kind="relationship" relationship="viewControllers" id="jV4-lZ-eTL"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="rxw-14-H8a"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LF7-Cu-MWB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1005" y="46"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ProfilePic" width="1067" height="1600"/>
+        <image name="airplane" catalog="system" width="128" height="115"/>
+        <image name="briefcase.fill" catalog="system" width="128" height="100"/>
+        <image name="person.crop.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="pexels-mateusz-dach-99805-1294886" width="5852" height="3698"/>
+        <image name="tom-barrett-M0AWNxnLaMw-unsplash" width="4000" height="6000"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
